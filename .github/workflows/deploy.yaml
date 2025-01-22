@@ -1,0 +1,13 @@
+name: to-do-workflow
+
+on: workflow_dispatch
+
+
+jobs: 
+  checkout:
+    runs on: ubuntu-latest
+    steps:
+      - name: check the folder or create the folder for project
+      - run: mkdir todo-app
+      
+       
