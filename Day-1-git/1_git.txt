@@ -1,0 +1,34 @@
+What is git?
+    A(free) version control system manage source code changes
+1.save code snapshots("commits")
+2.work with alternative code versions("branches")
+3.Move between branchhes and commits("checkouts")
+
+
+What is Github?
+    A Cloud Git Repository & services provider
+1.cloud git repository storage (pull & push)
+2.Public & Private, team management & more.
+3.code management and collabrative development.-(Via "Issues", "Projects","Pull Requests" & more)
+4.Automation & CI / Cloud-( Via Github Actions, Github Apps & more).
+
+What is GitHub Actions.
+    A workflow Automation service by GitHub
+1.Automate all kind of repository related processes & Actions
+a.code Deployment
+b.code & repository management.
+
+
+Working with Commits  
+
+1. git init                      Initialize git repository            
+2. git add .                     Stage code changes
+3. git commit -m "First commit"  Create a commit for a stage change
+4.git status                     Get the current repo sstatus
+5. git logs                      output a chronologically ordered list of commits
+6. git checkout commit_id         Temporarilly move back to commit id
+7. git revert commit_id           Revert the changes of commit id
+8. git reset commit_id            Undo commits to commit id by deleting commits
+
+
+ 

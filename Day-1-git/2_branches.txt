@@ -1,0 +1,16 @@
+1.git branch                       -> checking in which branch
+2.git branch -b new_branch_name    -> for creating the new github branch
+3.git branch existing_branch_name  -> for changing the branch
+4.git branch -D branch_name        -> for deleting the branch
+
+
+merge command 
+5.git checkout main                -> go to that branch in which you want to merge the changes
+6.git merge branch_name            -> this will merge the another branch code to the main branch
+
+GitHub Repository
+7.cloud storage for public/private repository 
+8.git remote add origin "git_repo_link" -> connected to git repo via git remote add
+9.git push git_branch_name           -> local commit are push via git push command
+10.git pull origin main              -> download the remote commits 
+   
