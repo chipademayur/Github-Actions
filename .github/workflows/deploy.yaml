@@ -7,7 +7,7 @@ jobs:
   checkout:
     runs on: ubuntu-latest
     steps:
-      - name: check the folder or create the folder for project
-      - run: mkdir todo-app
-      
-       
+      - name: check the folder all ready present or not
+        run: rm -rf todo
+      - name: create the directory for project
+        run: mkdir todo
